@@ -1,10 +1,10 @@
 maven_install(
   artifacts = [
-    "org.apache.lucene:lucene-core:8.0.0",
+    "org.apache.lucene:lucene-core:8.11.2",
     maven.artifact(
 	    group = "org.apache.lucene",
 	    artifact = "lucene-queryparser",
-	    version = "8.0.0",
+	    version = "8.11.2",
     )
   ]
   repositories = [
